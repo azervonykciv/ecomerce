@@ -38,7 +38,7 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <script src="{{ url('asset/admin/vendors/js/vendor.bundle.base.js') }}"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
   <script src="{{ url('asset/admin/vendors/chart.js/Chart.min.js') }}"></script>
@@ -55,8 +55,8 @@
   <script src="{{ url('asset/admin/js/todolist.js') }}"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="js/dashboard.js"></script>
-  <script src="js/Chart.roundedBarCharts.js"></script>
+  <script src="{{ url('asset/admin/js/dashboard.js') }}"></script>
+  <script src="{{ url('asset/admin/js/Chart.roundedBarCharts.js') }}"></script>
   <!-- End custom js for this page-->
 </body>
 
